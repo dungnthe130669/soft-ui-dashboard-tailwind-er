@@ -1,0 +1,10 @@
+frontend:
+    path: .
+    publish: build
+    scripts:
+        deploy:
+            - npm install --legacy-peer-deps
+    subdomain: purple-these-reindeer
+name: soft-ui-dashboard-tailwind
+region: us-east-1
+yamlVersion: 2
